@@ -1,1 +1,2 @@
-прилочение което използва multi threading засаичане на времето
+- The projeckt is writen in python.
+- Its about timers that are done with multithreading.
