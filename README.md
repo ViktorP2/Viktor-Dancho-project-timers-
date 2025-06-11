@@ -22,4 +22,7 @@ Multithreaded Timers WPF Application This WPF application demonstrates the use o
 9.  * The application uses multiple threads: the main UI thread and separate thread pool threads for each timer.
     *  * `Dispatcher.Invoke` is used to marshal UI updates from the timer threads to the UI thread.
        *  * A `lock` statement with the `_logLock` object is used to protect shared resources (`ActivityLog` and `TimerDisplay`) from race conditions.
-10.  ## Notes * This application demonstrates basic multithreading concepts in WPF. * The timer interval is set to 1 second for demonstration purposes. * The activity log is limited to 100 entries to prevent excessive memory usage.
+10.  ## Notes
+11.  * This application demonstrates basic multithreading concepts in WPF.
+     * * The timer interval is set to 1 second for demonstration purposes.
+       *  * The activity log is limited to 100 entries to prevent excessive memory usage.
